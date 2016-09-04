@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace FlyweightPattern.Domain
 {
     class Car : ICar
-    {
+    { 
         
 
         public Car(CarMakeEnum make, string color)

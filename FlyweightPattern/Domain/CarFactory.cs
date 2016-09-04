@@ -9,7 +9,7 @@ namespace FlyweightPattern.Domain
 {
     class CarFactory
     {
-        IDictionary<string, ICar> carRepo = new Dictionary<string, ICar>();
+        IDictionary<string, ICar> carRepo = new Dictionary<string, ICar>(); 
 
 
         public ICar GetCar(CarMakeEnum make, string color)
