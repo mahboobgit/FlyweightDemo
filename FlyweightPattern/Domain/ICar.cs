@@ -13,7 +13,7 @@ namespace FlyweightPattern.Domain
 
         string IntrinsicIdentifier { get; }
         
-        void Driving(int speed, string threadName);
+        void Driving(int speed, string threadName); 
 
     }
 }
